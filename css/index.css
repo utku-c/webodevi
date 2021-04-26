@@ -266,7 +266,7 @@ header .logo img{
 footer{
     /*width: 90%;
     margin: auto;*/
-    background-color: white;
+    background-color: beige;
     text-align: center;
     /*border: 1px solid black;*/
 }
@@ -322,4 +322,375 @@ footer p{
     display: inline-block;
     width: 60px;
     height: 60px;
+}
+
+#hakkimdaSlider{
+    height: 500px;
+    background: url('../img/samandag3.jpg') center center no-repeat; /*center : resmi ortadan alacak || no repeat tekrar etmesini engeller*/
+    background-size: cover;                                                                   
+}
+
+#hakkimdaCaption{
+    height: 500px;
+    background: rgba(0, 0, 0, .7);
+
+}
+
+#inspect{
+    background-color:whitesmoke;
+}
+.inspectTop{
+    text-align: center;
+
+}
+.inspectBody .col2{
+    display: flex;
+}
+.inspectImage{
+    width: 40%;
+}
+.inspectImage img{
+    width: 100%;
+    height: auto;
+}
+.inspectText{
+    width: 60%;
+    padding-left: 15px;
+}
+.date{
+    color: #000;
+    font-size: 16px;
+    font-style: italic;
+
+}
+h4{
+    color: #500D16;
+    font-size: 14px;
+    font-weight: bold;
+}
+.inspectText a{
+    float: right;
+    text-decoration: none;
+    color: #500D16;
+
+
+}
+.inspectText a:hover{
+    text-decoration: underline;
+
+}
+
+
+.projectXTop{
+    text-align: center;
+}
+
+#projectX .containerFluid{
+    height: 400px;
+    background: url('../img/samandag4.jpg') center center no-repeat;
+    background-size: cover;
+}
+.captionPX{
+    display: flex;
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 400px;
+}
+
+.projectXInfo{
+    margin-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.projectXTitle{
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.projectBTN{
+    background-color: #500D16;
+    color: #fff;
+    cursor: pointer;
+    padding:20px 40px;
+    border: none;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+.projectBTN:hover{
+    background-color: whitesmoke;
+    color: #500D16;
+
+}
+.projectXText{
+    color: white;
+}
+
+.projectXHighlight{
+    display: inline-block;
+    background-color: #500D16;
+    padding: 30px;
+
+}
+.containerFluid .col2{
+    padding: 0;
+}
+.projectXDetail{
+    color: white;
+
+}
+
+#aboutSlider{
+    height: 500px;
+    background: url('../img/samandag3.jpg') center center no-repeat; /*center : resmi ortadan alacak || no repeat tekrar etmesini engeller*/
+    background-size: cover;                                                                   
+}
+
+#aboutCaption{
+    height: 500px;
+    background: rgba(0, 0, 0, .7);
+
+}
+
+#ourHistory{
+    background-color: whitesmoke;
+
+}
+.ourHistoryTop{
+    text-align: center;
+
+}
+.ourHistoryBody .containerFluid{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.ourHistoryBody .col2{
+    display: flex;
+    
+}
+.ourHistoryDate{
+    flex: 1;
+    text-align: center;
+    background-color: #500D16;
+    color: white;
+
+}
+.ourHistoryDate p{
+    font-size: 30px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.ourHistoryImage{
+    flex:2;
+}
+.ourHistoryImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.ourHistoryText{
+    flex: 3;
+    margin-left: 10px;
+}
+.ourHistoryText p{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.teamTop{
+    text-align: center;
+
+}
+.teamBody .containerFluid{
+    display: flex;
+    width: 100%;
+}
+
+.teamMember{
+    position: relative;
+    width: 100%;
+
+}
+.teamMemberImg{
+    display: block; /* amaç yükseklik ve genişliği verebilmek*/
+    width: 100%;
+    height: 100%;
+}
+
+.teamMemberOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: #500D16;
+    transition: .5s ease;
+
+}
+.teamMember:hover .teamMemberOverlay{
+    opacity: 0;
+}
+.teamMember:hover .teamMemberInfo{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.teamTitle{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.teamMemberInfo{
+    background-color: rgba(80, 13, 22, .6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .5s ease;
+    padding: 20px;
+    text-align: center;
+
+}
+.memberSocialLinks{
+    text-align: center;
+
+}
+.memberSocialLinks li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width:960px){
+    .caption h1{
+        font-size: 32px;
+        letter-spacing: 2px;   
+    }
+    
+    .socialLinks img{
+        width: 30px;
+        height: 30px;
+        opacity: .5;
+       padding-bottom: 0;
+       transition: .3s ease;
+    }
+    .socialLinks li{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .inspectBody .container{
+        flex-direction: column;
+
+    }
+    .inspectBody .container .col2{
+        width: 100%;
+    }
+    .ourHistoryBody .col2 {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+
+    @media screen and (max-width:720px){
+
+        header .container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header .logo{
+            margin: 0 auto;
+        }
+        .caption h1{
+            font-size: 32px;
+            letter-spacing: 2px;   
+        }
+        .featuresBody .container{
+            flex-direction: column;
+
+        }
+        .featuresBody .container .col3{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .engineBody .container{
+            flex-direction: column;
+
+        }
+        .engineBody .container .col2{
+            width: 80%;
+            padding-left: 0;
+            padding-right: 0;
+            margin: 0 auto;
+            
+        }
+        footer .container{
+            flex-direction: column;
+
+        }
+        footer .container .col3{
+            width: 80%;
+        }
+        .sectionHeader {
+            font-size: 16px;
+            padding: 0px 10px;
+        }
+        .inspectBody .container .col2{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .teamMemberInfo{
+            font-size: 10px;
+            padding: 10px;
+
+        }
+        .teamTitle{
+            font-size: 10px;
+        }
+
+
+
+    }
+}
+@media screen and (max-width:540px){
+    .caption h1{
+        font-size: 24px;
+        letter-spacing: 1px;   
+    }
+    .featuresBody .container .col3{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .engineBody .container .col2{
+        width: 100%;
+        
+    }
 }
