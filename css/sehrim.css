@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(207, 204, 204);
+}
+
+.navbar-brand img{
+    height: 70px;
+    
+}
+.carousel-item img{
+    height: 500px;
+}
+
+.kart-resim{
+    height: 150px;
+}
+.kutu{
+    padding: 15px;
+    background-color: grey;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
