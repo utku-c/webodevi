@@ -77,9 +77,27 @@ button:hover{
 
 .my-element {
     animation: rotateIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    
 }
 .my-element2 {
-    animation: fadeInBottomRight; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
+    animation: flipInY; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 7s; /* don't forget to set a duration! */
 }
+
+.my-element3 {
+    animation: bounceInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 6s; /* don't forget to set a duration! */
+}
+
+.my-element4 {
+    animation: bounceInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 6s; /* don't forget to set a duration! */
+}
+.my-element5 {
+    animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 6s; /* don't forget to set a duration! */
+}
+
+
+

@@ -17,3 +17,27 @@ label{
 .t{
     text-align: center;
 }
+
+.my-element {
+    animation: rotateIn; 
+    animation-duration: 3s; 
+    
+}
+.my-element2 {
+    animation: flipInY; 
+    animation-duration: 7s;      
+}
+
+.my-element3 {
+    animation: bounceInDown; 
+    animation-duration: 6s; 
+}
+
+.my-element4 {
+    animation: bounceInUp; /*yukardan*/
+    animation-duration: 4s; 
+}
+.my-element5 {
+    animation: bounceInRight; 
+    animation-duration: 6s; 
+}

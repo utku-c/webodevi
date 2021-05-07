@@ -226,7 +226,7 @@ header .logo img{
     bottom: 0;
     left: 1000;
     right: 0;
-    background-color: rgba(80, 13, 22, .4);
+    background-color: rgba(114, 3, 17, 0.644);
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -290,14 +290,14 @@ footer{
 
 
 .socialLinks img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     opacity: .5;
    padding-bottom: 10px;
    transition: .3s ease;
 }
 .socialLinks img:hover{
-    transform: scale(1.5);
+    transform: scale(1.25);
 
 }
 
@@ -312,6 +312,10 @@ footer p{
     font-weight: bold;
     letter-spacing: 2px;
     transition: .3s ease;
+    
+}
+.footerLinks li{
+    margin-bottom: 10px;
 }
 
 .footerLinks a:hover {
@@ -321,8 +325,8 @@ footer p{
 }
 .socialLinks li{
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 #hakkimdaSlider{
@@ -461,6 +465,7 @@ h4{
 }
 .ourHistoryTop{
     text-align: center;
+    padding-bottom: 15px;
 
 }
 .ourHistoryBody .containerFluid{
@@ -474,6 +479,7 @@ h4{
     
 }
 .ourHistoryDate{
+    
     flex: 1;
     text-align: center;
     background-color: #500D16;
@@ -490,7 +496,7 @@ h4{
 }
 
 .ourHistoryImage{
-    flex:2;
+    flex:4;
 }
 .ourHistoryImage img{
     width: 100%;
