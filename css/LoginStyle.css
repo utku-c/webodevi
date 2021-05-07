@@ -1,0 +1,85 @@
+body{
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.back{
+    margin-top: 200px ;
+    height: 250px;
+    width: 300px;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif; 
+}
+ul{
+    padding-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+
+}
+ul li{
+    display: flex;
+    margin-top: 10px;
+}
+input {
+    margin-left: 10px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: transparent;
+    width: 170px;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+input:focus{
+    box-shadow: 5px 9px 18px rgb(90, 90, 190);
+    
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+button{
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: transparent;
+    font-size: 20px;
+}
+button:hover{
+    border: 2px solid gray;
+    box-shadow: 5px 9px 18px grey;
+
+}
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.back {
+    animation: opacity 3s 1;
+}
+.error{
+    color: red;
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.my-element {
+    animation: rotateIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.my-element2 {
+    animation: fadeInBottomRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}

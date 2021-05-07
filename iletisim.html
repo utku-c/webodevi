@@ -23,7 +23,7 @@
                 <h2 class="display-3 text-center">
                     İletişim Formu 
                 </h2>
-                <form action="" method="get" class="needs-validation" novalidate>
+                <form action="" method="POST" class="needs-validation" novalidate>
                     <fieldset class="p-4">
                         <legend class="mb-3">Bana Ulaşmak İçin Formu Doldur</legend>
                         <div class="row mb-3">
@@ -112,7 +112,7 @@
                             <label for="sec" class="col-md-3 col-form-label">Cinsiyet</label>
                             <div class="col-md-9">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
                                     <label class="form-check-label" for="exampleRadios1">
                                       KIZ
                                     </label>
@@ -124,9 +124,9 @@
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
                                     <label class="form-check-label" for="exampleRadios3">
-                                      ?
+                                      Belirtmek İstemiyorum
                                     </label>
                                   </div>
                             </div>
@@ -154,11 +154,11 @@
                                     <label class="form-check-label" for="inlineRadio3">3) Acil</label>
                                   </div>
                                   <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4" disabled>
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4" >
                                     <label class="form-check-label" for="inlineRadio4">4) Çok Çok Acil</label>
                                   </div>
                                   <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5" disabled>
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5" >
                                     <label class="form-check-label" for="inlineRadio5">5) Ödevim Var Çok Acil</label>
                                   </div>
                                   
@@ -193,7 +193,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="d-grid mx-auto col-8">
-                                    <button type="submit" class="btn btn-info" disabled> Temizle</button>
+                                    <button type="reset" class="btn btn-info"> Temizle</button>
                                     
                                 </div>
                             </div>
@@ -215,12 +215,3 @@
     <script src="js/bootstrap.js"></script>
 </body>
 </html>
-<!--
-
-
-    <div class="d-grid mx-auto col-5">
-                            <button type="submit" class="btn btn-info"> Gönder</button>
-                            
-                        </div>
-
--->
