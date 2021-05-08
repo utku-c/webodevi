@@ -28,7 +28,7 @@
                                     echo "Hoşgeldiniz ";
                                     echo $gelenMail[0];
                                 }
-                                }
+                                }                                
                             ?>
                         </h2>
                     </li>

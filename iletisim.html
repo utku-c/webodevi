@@ -33,7 +33,7 @@
                         <div class="row mb-3  my-element3">
                             <label for="adsoyad" class="col-md-3 col-form-label">Ad - Soyad</label>
                             <div class="col-md-9">
-                                <input id="adsoyad" type="text" placeholder="Adınızı Soyadınızı Yazın" name="" id="" class="form-control" required>
+                                <input id="adsoyad" type="text"  placeholder="Ad Soyad" name=""  class="form-control" required>
                                 <div class="valid-feedback">
                                     Harika
                                   </div>
@@ -43,7 +43,7 @@
                         <div class="row mb-3  my-element4">
                             <label for="email" class="col-md-3 col-form-label">E-Mail Adres</label>
                             <div class="col-md-9">
-                                <input id="email" type="email" placeholder="e-mail adresiniz" name="" id="" class="form-control" required>
+                                <input id="email" value="" type="email" placeholder="e-mail adresiniz" name="" id="" class="form-control" required>
                                 
                             </div>
                         </div>
@@ -53,22 +53,24 @@
                             <div class="col-md-9">
                                 <div class="row mb-3">
                                     <div class="col-md-6">
-                                        <input id="adres" type="text" placeholder="Şehir" name="" id="" class="form-control mb-3 mb-md-0 mb-lg-0" required>
+                                        <input id="adres1" type="text" placeholder="Şehir" name="" class="form-control mb-3 mb-md-0 mb-lg-0" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <input id="adres" type="text" placeholder="İlçe" name="" id="" class="form-control" required>
+                                        <input id="adres2" type="text" placeholder="İlçe" name="" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <input id="adres" type="text" placeholder="posta kodu" name="" id="" class="form-control mb-3 mb-md-0 mb-lg-0" required>
+                                        <input id="adres3" type="text" placeholder="posta kodu" name="" class="form-control mb-3 mb-md-0 mb-lg-0" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>hatay</option>
-                                            <option value="1">antakya</option>
-                                            <option value="2">sakarya</option>
-                                            <option value="3">istanbul</option>
+                                        <select id="slc" class="form-select" aria-label="Default select example">
+                                            <option selected>Türkiye </option>
+                                            <option value="1">Almanya</option>
+                                            <option value="2">Fransa</option>
+                                            <option value="3">Suriye</option>
+                                            <option value="4">Ukrayna</option>
+                                            
                                           </select>
                                     </div>
                                 </div>
@@ -81,13 +83,13 @@
                             <label for="sec" class="col-md-3 col-form-label">Bildiğiniz Diller</label>
                             <div class="col-md-9">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="" id="html">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       HTML
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                    <input class="form-check-input" type="checkbox" value="" id="js" checked>
                                     <label class="form-check-label" for="flexCheckChecked">
                                       JAVASCRİPT
                                     </label>
@@ -116,19 +118,19 @@
                             <label for="sec" class="col-md-3 col-form-label">Cinsiyet</label>
                             <div class="col-md-9">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                    <input class="form-check-input" type="radio" name="cinsiyet" id="kiz" value="kız" >
                                     <label class="form-check-label" for="exampleRadios1">
                                       KIZ
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <input class="form-check-input" type="radio" name="cinsiyet" id="erkek" value="erkek">
                                     <label class="form-check-label" for="exampleRadios2">
                                       ERKEK
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+                                    <input class="form-check-input" type="radio" name="cinsiyet" id="bellidegil" value="belirtmek istemiyor" checked>
                                     <label class="form-check-label" for="exampleRadios3">
                                       Belirtmek İstemiyorum
                                     </label>
@@ -146,23 +148,23 @@
                             <label for="sec" class="col-md-3 col-form-label">Ulaşma Aciliyeti</label>
                             <div class="col-md-9">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <input class="form-check-input" type="radio" name="acele" id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1">1) Acelesi Yok</label>
                                   </div>
                                   <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <input class="form-check-input" type="radio" name="acele" id="inlineRadio2" value="option2">
                                     <label class="form-check-label" for="inlineRadio2">2) Biraz Acil</label>
                                   </div>
                                   <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <input class="form-check-input" type="radio" name="acele" id="inlineRadio3" value="option3">
                                     <label class="form-check-label" for="inlineRadio3">3) Acil</label>
                                   </div>
                                   <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4" >
+                                    <input class="form-check-input" type="radio" name="acele" id="inlineRadio4" value="option4" >
                                     <label class="form-check-label" for="inlineRadio4">4) Çok Çok Acil</label>
                                   </div>
                                   <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5" >
+                                    <input class="form-check-input" type="radio" name="acele" id="inlineRadio5" value="option5" checked >
                                     <label class="form-check-label" for="inlineRadio5">5) Ödevim Var Çok Acil</label>
                                   </div>
                                   
@@ -178,7 +180,7 @@
                                 İletişim Nedeni
                             </label>
                             <div class="col-md-9">
-                                <textarea name="" class="form-control" id="" cols="99999990" rows="7"></textarea>
+                                <textarea name="" class="form-control" id="area" cols="99999990" rows="7"></textarea>
                             </div>
                         </div>
                         
@@ -191,7 +193,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="d-grid mx-auto col-8">
-                                    <button type="submit" class="btn btn-info"> Gönder</button>
+                                    <button type="submit" class="btn btn-info" onclick="denetle()"> Gönder</button>
                                     
                                 </div>
                             </div>
@@ -214,8 +216,10 @@
     </div>
     
 
-
-    <script src="js/iletisim.js"></script>
-    <script src="js/bootstrap.js"></script>
+      <script type="text/javascript">
+      </script>
+      <script src="js/iletisim.js"></script>
+      <script src="js/bootstrap.js"></script>
+    
 </body>
 </html>

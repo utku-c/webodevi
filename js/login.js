@@ -4,7 +4,7 @@ function kontrol(){
     var sHata = document.getElementById('sifreHata');
     var eHata = document.getElementById('emailHata');
     var hataSayisi = 0;
-
+    
     if(email.value == null || email.value == ""){
         email.style.borderColor = "red";
         eHata.textContent = "* Email Alanını boş bırakmayınız";
@@ -28,6 +28,10 @@ function kontrol(){
         return true;
     }
     
+    
+    
+        
     return false;
+    
 
 }

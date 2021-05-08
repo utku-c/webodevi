@@ -33,6 +33,13 @@ h1{
 
 
 }
+.yazibyt{
+    font-size: 32px;
+    font-weight: 900;
+}
+.yazibyt2{
+    font-size: 24px;
+}
 h3{
     font-size: 16px;
     color:#500D16;
@@ -91,7 +98,6 @@ header .logo img{
     padding: 27px 17px;
     display: block;
     text-decoration: none;
-    letter-spacing: 2px;
     color: #333;
     transition: all .5s ease;
 
@@ -699,5 +705,17 @@ h4{
     .engineBody .container .col2{
         width: 100%;
         
+    }
+    .menu li a{
+        padding: 27px 6px;
+        display: block;
+        text-decoration: none;
+        color: #333;
+        transition: all .5s ease;
+    
+    }
+    .sectionArea .teamBody .containerFluid .col3 .teamMember{
+        flex-direction: column;
+        width: 80%;
     }
 }
