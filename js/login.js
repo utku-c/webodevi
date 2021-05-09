@@ -19,9 +19,21 @@ function kontrol(){
         sHata.textContent = "* Şifre Alanını boş bırakmayınız";
         hataSayisi++;
     }
+
     else{
         sifre.style.borderColor = "gray";
         sHata.textContent = "";
+    }
+    if(!(sifre.value == "")){
+        if(!(sifre.value == "g191210100") || !(email.value == "utku.bilgin@ogr.sakarya.edu.tr")){
+        sHata.textContent = "* Giriş bilgileri yanlış";
+        hataSayisi++;
+        } 
+    }
+    if(hataSayisi == 0){
+        alert("g191210100 Hoşgeldin")
+        return true;
+        
     }
 
     if(hataSayisi == 0){
